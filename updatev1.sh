@@ -2,7 +2,7 @@
 
 set -e
 set -u # Exit on error when uninitialized variable
-
+echo " ttt "
 if [ $# -eq 0 ] ; then
 	echo "Usage: ./updatev1.sh <traefik tag or branch>"
 	exit
